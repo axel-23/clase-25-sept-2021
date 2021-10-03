@@ -14,7 +14,8 @@ export class AppComponent {
     { title: 'Spam', url: '/folder/Spam', icon: 'warning' }, */
     { title: 'Inicio', url: '/inicio', icon: 'home' },
     { title: 'Clientes', url: '/clientes', icon: 'people' },
-    { title: 'Actions', url: '/actions', icon: 'game-controller-outline' }
+    { title: 'Actions', url: '/actions', icon: 'color-wand' },
+    { title: 'Alert', url: '/alert', icon: 'alert' }
   ];
   // public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
