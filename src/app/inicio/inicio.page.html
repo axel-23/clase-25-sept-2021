@@ -6,4 +6,10 @@
     <pre id="terminal"><font color="#5555FF"><b>~</b></font>$ ionic generate page inicio</pre>
     <ion-button color="mycolor" [routerLink]="['/clientes']">Go to Clientes</ion-button>
   </div>
+  <ion-list>
+    <ion-item *ngFor="let c of componentes" [routerLink]="c.redirecTo">
+      <ion-icon [name]="c.icon" slot="start"></ion-icon>
+      {{ c.name }}
+    </ion-item>
+  </ion-list>
 </ion-content>
