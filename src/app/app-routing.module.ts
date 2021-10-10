@@ -34,6 +34,14 @@ const routes: Routes = [
   {
     path: 'favoritos',
     loadChildren: () => import('./favoritos/favoritos.module').then( m => m.FavoritosPageModule)
+  },
+  {
+    path: 'card',
+    loadChildren: () => import('./card/card.module').then( m => m.CardPageModule)
+  },
+  {
+    path: 'fab',
+    loadChildren: () => import('./fab/fab.module').then( m => m.FabPageModule)
   }
 ];
 

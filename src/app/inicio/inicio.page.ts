@@ -43,6 +43,16 @@ export class InicioPage implements OnInit {
       icon: 'heart-outline',
       name: 'Favoritos',
       redirecTo: '/favoritos'
+    },
+    {
+      icon: 'id-card-outline',
+      name: 'Card',
+      redirecTo: '/card'
+    },
+    {
+      icon: 'bulb-outline',
+      name: 'FAB',
+      redirecTo: '/fab'
     }
   ];
 
